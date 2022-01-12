@@ -5,99 +5,101 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Timofei Torshin">
-  <title>Initial Document</title>
+  <title>Choose Flutter To Choose Both</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;800&family=Open+Sans:wght@700;800&family=Source+Sans+Pro:wght@200;300;400;700&display=swap">
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <div id="block1">
-    <table width="100%">
-      <tr>
-        <td>
-          <img src="./assets/logo-black.png" srcset="./assets/logo-black@2x.png 2x, ./assets/logo-black@4x.png 4x" alt="Main Logo">
-        </td>
-        <td align="right">DECEMBER 2021</td>
-      </tr>
-    </table>
-    <img src="./assets/human.png" srcset="./assets/human@2x.png 2x, ./assets/human@4x.png 4x" alt="Human Image">
-    <h1>CHOOSE FLUTTER TO CHOOSE BOTH</h1>
-    <button>REGISTER</button>
-  </div>
-  <div id="block2">
-    <h2>WORKSHOP</h2>
-    <p>We're launching a series of practical workshops on development in January 2020. We'll teach you how to know your way around software, share the latest news, and help to start.</p>
-    <p>First workshop will familiarize you with cross-platform mobile development toolkit called Flutter. Join if you're aspiring to learn how to develop mobile apps and master new tools, but unsure what to start with.</p>
-  </div>
-  <div id="block3">
-    <h2>WHEN AND WHERE</h2>
-    <div>
-      <div>
-        <h3>Where</h3>
-        <p>Moscow, office</p>
+  <header class="header">
+    <div class="header__container container">
+      <div class="header__nav">
+        <img class="header__logo" src="./assets/logo-white.svg" alt="LearnUp Logo"/>
+        <p class="header__date">December 2021</p>
       </div>
-      <div>
-        <h3>About the course</h3>
-        <p>Duration: 2 weeks.</p>
-        <p>Comprises 4 2-hour modules twice a week.</p>
-      </div>
-      <div>
-        <h3>When</h3>
-        <p>DECEMBER 2021</p>
+      <div class="header__content">
+        <div class="header__os-container">
+          <div class="header__os">
+            <img class="header__os-icon" src="./assets/ios-icon.svg" alt="iOS Icon">
+            <p class="header__os-name">iOS</p>
+          </div>
+          <div class="header__os">
+            <img class="header__os-icon" src="./assets/android-icon.svg" alt="Android Icon">
+            <p class="header__os-name">Android</p>
+          </div>
+        </div>
+        <div class="header__title-container">
+          <span class="header__first-span">choose</span>
+          <h1 class="header__title">flutter</h1>
+          <span class="header__second-span">to choose both</span>
+        </div>
+        <button class="header__button button">
+          <a href="https://lms.learn-up.ru/courses" target="_blank">register</a>
+        </button>
       </div>
     </div>
-  </div>
-  <div id="block4">
-    <h2>WHO</h2>
-    <table border="1" width="30%">
-      <caption>Цены на флагманские модели iPhone и Xiaomi</caption>
-      <thead>
-        <tr>
-          <th>Производитель</th>
-          <th>Модель</th>
-          <th>Цена</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td rowspan="3">iPhone</td>
-          <td>12 Pro</td>
-          <td>$999</td>
-        </tr>
-        <tr>
-          <td>12</td>
-          <td>$799</td>
-        </tr>
-        <tr>
-          <td>12 mini</td>
-          <td>$699</td>
-        </tr>
-        <tr>
-          <td rowspan="2">Xiaomi</td>
-          <td>Mi 10</td>
-          <td>$768</td>
-        </tr>
-        <tr>
-          <td>Black Shark 3 128 Gb</td>
-          <td>$529</td>
-        </tr>
-      </tbody>
-      <tfoot>
-        <tr>
-          <td colspan="2">Средняя цена:</td>
-          <td>$758.8</td>
-        </tr>
-      </tfoot>
-    </table>
-    <button>Register</button>
-  </div>
-  <div id="block5">
-    <h2>GET READY</h2>
-    <p>We prepared some materials to get to know the platform. You're not obliged to study them, but it'll help to learn the basics faster and easier, prepare a list of questions to lecturers, and have a more productive workshop experience.</p>
-    <button>Register</button>
-  </div>
-  <div id="block6">
-    <h2>ORGANIZERS</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolorem eius non possimus velit. Atque eveniet facere magni molestias nostrum nulla odio odit pariatur rerum sunt! A aperiam architecto, beatae, ea eius est expedita facere, itaque minus nam obcaecati perferendis quia quis soluta totam unde vero. Accusantium aperiam beatae consequatur culpa dolor, earum eius expedita fuga illo ipsa libero maiores maxime molestias nulla numquam obcaecati odit praesentium sunt tenetur totam.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolorem eius non possimus velit. Atque eveniet facere magni molestias nostrum nulla odio odit pariatur rerum sunt! A aperiam architecto, beatae, ea eius est expedita facere, itaque minus nam obcaecati perferendis quia quis soluta totam unde vero.</p>
-  </div>
+  </header>
+  <main class="main">
+    <section class="workshop">
+      <div class="workshop__container container">
+        <div class="workshop__heading">
+          <img class="workshop__logo" src="./assets/logo-black.svg" alt="LearnUp Logo"/>
+          <h3 class="workshop__title">workshop</h3>
+          <button class="workshop__button button">
+            <a href="https://lms.learn-up.ru/courses" target="_blank">register</a>
+          </button>
+        </div>
+        <div class="workshop__paragraphs">
+          <p class="workshop__paragraph">We're launching a series of practical workshops on development in January 2020. We'll teach you how to know your way around software, share the latest news, and help to start.</p>
+          <p class="workshop__paragraph">First workshop will familiarize you with cross-platform mobile development toolkit called Flutter. Join if you're aspiring to learn how to develop mobile apps and master new tools, but unsure what to start with.</p>
+        </div>
+        <div class="workshop__cards">
+          <article class="workshop__card">
+            <img class="workshop__card-image" src="./assets/human-small-first.png" alt="About What"/>
+            <h4 class="workshop__card-title">about what</h4>
+            <p class="workshop__card-description">Platform perks, intro to Dart language and creating your own apps. Bonus: intro to (fantastic) animation.</p>
+          </article>
+          <article class="workshop__card">
+            <img class="workshop__card-image" src="./assets/human-small-second.png" alt="For Whom"/>
+            <h4 class="workshop__card-title">for whom</h4>
+            <p class="workshop__card-description">Students and IT professionals that try to decide if they want to work with mobile app development fast.</p>
+          </article>
+          <article class="workshop__card">
+            <img class="workshop__card-image" src="./assets/human-small-third.png" alt="Why"/>
+            <h4 class="workshop__card-title">why</h4>
+            <p class="workshop__card-description">To cover cross-platform development bases quickly. Understand pros and cons if it using workshop format.</p>
+         </article>
+        </div>
+      </div>
+    </section>
+    <section class="who">
+      <div class="who__container container">
+        <div class="who__heading">
+          <img class="who__logo" src="./assets/logo-black.svg" alt="LearnUp Logo"/>
+          <h3 class="who__title">who</h3>
+          <p class="who__date">december 2021</p>
+        </div>
+        <button class="who__button button">
+          <a href="https://lms.learn-up.ru/courses" target="_blank">register</a>
+        </button>
+      </div>
+    </section>
+    <section class="organizers">
+      <div class="organizers__container container">
+        <div class="organizers__heading">
+          <img class="organizers__logo" src="./assets/logo-black.svg" alt="LearnUp Logo"/>
+          <h3 class="organizers__title">organizers</h3>
+          <button class="organizers__button button">
+            <a href="https://lms.learn-up.ru/courses" target="_blank">register</a>
+          </button>
+        </div>
+        <div class="organizers__paragraphs">
+          <p class="organizers__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolorem eius non possimus velit. Atque eveniet facere magni molestias nostrum nulla odio odit pariatur rerum sunt! A aperiam architecto, beatae, ea eius est expedita facere, itaque minus nam obcaecati perferendis quia quis soluta totam unde vero. Accusantium aperiam beatae consequatur culpa dolor, earum eius expedita fuga illo ipsa libero maiores maxime molestias nulla numquam obcaecati odit praesentium sunt tenetur totam.</p>
+          <p class="organizers__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolorem eius non possimus velit. Atque eveniet facere magni molestias nostrum nulla odio odit pariatur rerum sunt! A aperiam architecto, beatae, ea eius est expedita facere, itaque minus nam obcaecati perferendis quia quis soluta totam unde vero.</p>
+       </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
