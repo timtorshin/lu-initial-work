@@ -361,3 +361,75 @@ body {
 .organizers__paragraph:first-child {
   margin-bottom: 24px;
 }
+
+.footer__container {
+  padding-bottom: 58px;
+}
+
+.footer__networks {
+  margin: 0 auto;
+  max-width: 940px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__network-container {
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+}
+
+.footer__network-icon {
+  display: block;
+}
+
+.footer__network-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+}
+
+.footer__network-button {
+  padding: 14px 32px;
+  background-color: #FF7E03;
+}
+
+.footer__network-button a {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+.footer__copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 130px;
+}
+
+.footer__copyright-date {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #000;
+}
+
+.footer__copyright-mail {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FF7E03;
+}
