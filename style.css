@@ -243,6 +243,138 @@ body {
   color: #4A4A4A;
 }
 
+.when-and-where {
+  background: linear-gradient(0deg, #353535, #353535), linear-gradient(0deg, rgba(51, 51, 51, 0.8), rgba(51, 51, 51, 0.8));
+}
+
+.when-and-where__container {
+  padding-top: 52px;
+  padding-bottom: 110px;
+}
+
+.when-and-where__heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.when-and-where__logo {
+  width: 121px;
+  height: 45px;
+  margin-right: 26px;
+}
+
+.when-and-where__title {
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+.when-and-where__button {
+  padding: 14px 40px;
+  background-color: transparent;
+  border: 1px solid #FFF;
+}
+
+.when-and-where__button a {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+.when-and-where__cards {
+  border: 1px solid #FFF;
+  padding: 20px 70px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 48px;
+}
+
+.when-and-where__card {
+  display: flex;
+  flex-direction: column;
+  color: #FFF;
+  width: 510px;
+}
+
+.when-and-where__card:last-child {
+  justify-content: flex-end;
+}
+
+.when-and-where__card-title {
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.when-and-where__card-container {
+  margin-top: 32px;
+}
+
+.when-and-where__card-subtitle {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 13.2778px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.when-and-where__card-info {
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: -0.0326923px;
+}
+
+.when-and-where__card-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 86px;
+  letter-spacing: -0.0871795px;
+}
+
+.when-and-where__card-place {
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: -0.0326923px;
+  margin: 5px 0;
+}
+
+.when-and-where__card-block {
+  display: flex;
+  align-items: flex-end;
+}
+
+.when-and-where__card-icon {
+  display: block;
+  margin-right: 8px;
+}
+
 .who__container {
   padding-top: 52px;
   padding-bottom: 68px;
